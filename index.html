@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Wildlife Institute of India">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+        <!--Favicon-->
+        <link rel="shortcut icon" href="Images/wii.png" type="image/x-icon">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="style.css">
+        
+        <title>Wildlife Institute of India</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header-section">
+                <h1>Upload Files</h1>
+                <p>Upload files you want to sort</p>
+                <p>Images, Files</p>
+
+            </div>
+            <div class="drop-section">
+                <div class="col">
+                    <div class="cloud-icon">
+                        <img src="Images/cloud.png" alt="cloud">
+                    </div>
+                    <span>Drag and Drop your files here</span>
+                    <span>OR</span>
+                    <button class="file-selector">Browse Files</button>
+                    <input type="file" class="file-selector-input" multiple>
+                </div>
+                <div class="col">
+                    <div class="drop-here"></div>
+                </div>
+            </div>
+            <div class="list-section">Drop Here</div>
+        </div>
+
+        <!--MAIN JS-->
+        <script src="app.js"></script>
+    </body>
+</html>
