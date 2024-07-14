@@ -1,69 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Wildlife Institute of India">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Wildlife Institute of India">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-        <!--Favicon-->
-        <link rel="shortcut icon" href="Images/wii.png" type="image/x-icon">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="Images/wii.png" type="image/x-icon">
 
-        <!--CSS-->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-        <link rel="stylesheet" href="style.css">
-        
-        <title>Wildlife Institute of India</title>
-    </head>
-    <body>
-        <div class="container">
-            <div class="header-section">
-                <h1>Upload Files</h1>
-                <p>Upload files you want to sort</p>
-                <p>Images, Files</p>
-
+    <!--CSS-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Wildlife Institute of India</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header-section">
+            <h1>Upload Files</h1>
+            <p>Upload the files you want to sort below</p>
+            <p>-----</p>
+        </div>
+        <div class="drop-section">
+            <div class="col">
+                <div class="cloud-icon">
+                    <img src="Images/cloud.png" alt="cloud">
+                </div>
+                <span>Drag and Drop your files here</span>
+                <span>OR</span>
+                <button class="file-selector">Browse Files</button>
+                <input type="file" class="file-selector-input" multiple>
             </div>
-            <div class="drop-section">
-                <div class="col">
-                    <div class="cloud-icon">
-                        <img src="Images/cloud.png" alt="cloud">
-                    </div>
-                    <span>Drag and Drop your files here</span>
-                    <span>OR</span>
-                    <button class="file-selector">Browse Files</button>
-                    <input type="file" class="file-selector-input" multiple>
-                </div>
-                <div class="col">
-                    <div class="drop-here">Drop Here</div>
-                </div>
-            </div>
-            <div class="list-section">
-                <div class="list-title">Uploaded Files</div>
-                <div class="list">
-                    <li class="in-prog">
-                        <div class="col">
-                            <img src="Images/image.png" alt="">
-                        </div>
-                        <div class="col">
-                            <div class="file-name">
-                                <div class="name">File Name Here</div>
-                                <span>50%</span>
-                            </div>
-                            <div class="file-progress">
-                                <span></span>
-                            </div>
-                            <div class="file-size">2.2 MB</div>
-                        </div>
-                        <div class="col">
-                            <span class="material-symbols-outlined">close</span>                            
-                            <span class="material-symbols-outlined">check</span>
-                        </div>
-                    </li>
-                </div>
+            <div class="col">
+                <div class="drop-here">Drop Here</div>
             </div>
         </div>
+        <div class="list-section">
+            <div class="list-title">Uploaded Files</div>
+            <div class="list">
+                <!-- <li class="in-prog">
+                    <div class="col">
+                        <img src="Images/image.png" alt="">
+                    </div>
+                    <div class="col">
+                        <div class="file-name">
+                            <div class="name">File Name Here</div>
+                            <span>50%</span>
+                        </div>
+                        <div class="file-progress">
+                            <span></span>
+                        </div>
+                        <div class="file-size">2.2 MB</div>
+                    </div>
+                    <div class="col">
+                        <span class="material-symbols-outlined close">close</span>                            
+                        <span class="material-symbols-outlined check">check</span>
+                    </div>
+                </li> -->
+            </div>
+        </div>
+    </div>
 
-        <!--MAIN JS-->
-        <script src="app.js"></script>
-    </body>
+    <!--MAIN JS-->
+    <script src="app.js"></script>
+</body>
 </html>
